@@ -5,15 +5,15 @@
  * Link:		http://creativecommons.org/licenses/by-nc-sa/3.0/
  * -----------------------------------------------------------------------
  * Began:		2011
- * Date:		$Date: 2012-05-11 12:22:52 +0200 (Fri, 11 May 2012) $
+ * Date:		$Date$
  * -----------------------------------------------------------------------
- * @author		$Author: wallenium $
+ * @author		$Author$
  * @copyright	2006-2011 EQdkp-Plus Developer Team
  * @link		http://eqdkp-plus.com
  * @package		eqdkp-plus
- * @version		$Rev: 11784 $
+ * @version		$Rev$
  * 
- * $Id: wildstar.class.php 11784 2012-05-11 10:22:52Z wallenium $
+ * $Id$
  */
 
 if ( !defined('EQDKP_INC') ){
@@ -38,7 +38,7 @@ if(!class_exists('wildstar')) {
 		protected $lang_file	= array();
 		protected $path			= false;
 		public $lang			= false;
-		public $version			= '0.1';
+		public $version			= '0.2';
 		
 		/**
 		* Initialises filters
@@ -67,10 +67,12 @@ if(!class_exists('wildstar')) {
 		public function get_OnChangeInfos($install=false){
 			//classcolors
 			$info['class_color'] = array(
-				1 => '#e1202d',
-				2 => '#11d328',
-				3 => '#d311b1',
-				4 => '#ebb614',				
+				1	=> '#e1202d',
+				2	=> '#11d328',
+				3	=> '#d311b1',
+				4	=> '#ebb614',
+				5	=> '#ebb614',
+				6	=> '#ebb614',
 			);
 			
 			$info['aq'] = array();

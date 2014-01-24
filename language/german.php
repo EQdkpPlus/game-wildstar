@@ -5,15 +5,15 @@
  * Link:		http://creativecommons.org/licenses/by-nc-sa/3.0/
  * -----------------------------------------------------------------------
  * Began:		2011
- * Date:		$Date: 2012-05-11 12:21:28 +0200 (Fri, 11 May 2012) $
+ * Date:		$Date$
  * -----------------------------------------------------------------------
- * @author		$Author: wallenium $
+ * @author		$Author$
  * @copyright	2006-2011 EQdkp-Plus Developer Team
  * @link		http://eqdkp-plus.com
  * @package		eqdkp-plus
- * @version		$Rev: 11783 $
+ * @version		$Rev$
  * 
- * $Id: german.php 11783 2012-05-11 10:21:28Z wallenium $
+ * $Id$
  */
 
 if ( !defined('EQDKP_INC') ){
@@ -21,12 +21,13 @@ if ( !defined('EQDKP_INC') ){
 }
 $german_array = array(
 	'classes' => array(
-
 		0 => 'Unbekannt',
 		1 => 'Krieger',
         2 => 'Arkanschütze',
 		3 => 'Meuchler',
 		4 => 'Esper',
+		5 => 'Sanitäter',
+		6 => 'Techpionier',
 	),
 	
 	'races' => array(
@@ -36,15 +37,15 @@ $german_array = array(
 		'Granok',
 		'Draken',
 		'Aurin',
-		'Mechari'
-
+		'Mechari',
+		'Mordesch',
+		'Chua',
 	),
 	
 	'roles' => array(
-		1 => array(2,4),
-		2 => array(1,3),
-		3 => array(1,2,3,4),		
-		
+		1 => array(2,4,5),
+		2 => array(1,3,6),
+		3 => array(1,2,3,4,5,6),
 	),
 
 	'lang' => array(
@@ -64,7 +65,6 @@ $german_array = array(
 		'uc_guild'					=> 'Gilde',
 		
 		// Pfade
-		
 		'uc_path_0' => '-',
 		'uc_path_1' => 'Kundschafter',
 		'uc_path_2' => 'Wissenschaftler',
