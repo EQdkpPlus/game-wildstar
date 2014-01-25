@@ -43,9 +43,9 @@ $english_array =  array(
 	),
 	
 	'roles' => array(
-		1 => array(2,4,5),
-		2 => array(1,3,6),
-		3 => array(1,2,3,4,5,6),
+		1 => array(2,4,5),	# healer
+		2 => array(1,3,6),	# tank
+		3 => array(1,2,3,4,5,6),	# DD
 	),
 
 	'lang' => array(

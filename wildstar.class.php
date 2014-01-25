@@ -38,7 +38,7 @@ if(!class_exists('wildstar')) {
 		protected $lang_file	= array();
 		protected $path			= false;
 		public $lang			= false;
-		public $version			= '0.2';
+		public $version			= '0.3';
 		
 		/**
 		* Initialises filters
@@ -67,12 +67,12 @@ if(!class_exists('wildstar')) {
 		public function get_OnChangeInfos($install=false){
 			//classcolors
 			$info['class_color'] = array(
-				1	=> '#e1202d',
-				2	=> '#11d328',
-				3	=> '#d311b1',
-				4	=> '#ebb614',
-				5	=> '#ebb614',
-				6	=> '#ebb614',
+				1	=> '#CC0000',
+				2	=> '#0066FF',
+				3	=> '#FF00CC',
+				4	=> '#33FFFF',
+				5	=> '#FFCC00',
+				6	=> '#66CC00',
 			);
 			
 			$info['aq'] = array();

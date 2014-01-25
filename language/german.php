@@ -43,9 +43,9 @@ $german_array = array(
 	),
 	
 	'roles' => array(
-		1 => array(2,4,5),
-		2 => array(1,3,6),
-		3 => array(1,2,3,4,5,6),
+		1 => array(2,4,5),	# healer
+		2 => array(1,3,6),	# tank
+		3 => array(1,2,3,4,5,6),	# DD
 	),
 
 	'lang' => array(
@@ -55,7 +55,7 @@ $german_array = array(
 		'light' => 'Leichte Rüstung',
 		'role1' => 'Heiler',
 		'role2' => 'Tank',
-		'role3' => 'Damage Dealer',		
+		'role3' => 'Damage Dealer',
 
 		// Profile information
 		'uc_path'					=> 'Pfad',
