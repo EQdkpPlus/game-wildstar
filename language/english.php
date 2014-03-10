@@ -20,26 +20,30 @@ if ( !defined('EQDKP_INC') ){
 	header('HTTP/1.0 404 Not Found');exit;
 }
 $english_array =  array(
+	'factions' => array(
+		'exile' 	=> 'Exile',
+		'dominion' 	=> 'Dominion'
+	),
 	'classes' => array(
-		0 => 'Unknown',
-		1 => 'Warrior',
-        2 => 'Spellslinger',
-		3 => 'Stalker',
-		4 => 'Esper',
-		5 => 'Medic',
-		6 => 'Engineer',
+		0	=> 'Unknown',
+		1	=> 'Warrior',
+		2	=> 'Spellslinger',
+		3	=> 'Stalker',
+		4	=> 'Esper',
+		5	=> 'Medic',
+		6	=> 'Engineer',
 	),
 	
 	'races' => array(
-		'Unknown',
-		'Human',
-		'Cassian',
-		'Granok',
-		'Draken',
-		'Aurin',
-		'Mechari',
-		'Mordesch',
-		'Chua',
+		0	=> 'Unknown',
+		1	=> 'Human',
+		2	=> 'Cassian',
+		3	=> 'Granok',
+		4	=> 'Draken',
+		5	=> 'Aurin',
+		6	=> 'Mechari',
+		7	=> 'Mordesch',
+		8	=> 'Chua',
 	),
 	
 	'roles' => array(

@@ -20,26 +20,30 @@ if ( !defined('EQDKP_INC') ){
 	header('HTTP/1.0 404 Not Found');exit;
 }
 $german_array = array(
+	'factions' => array(
+		'exile' 	=> 'Die Verbannten',
+		'dominion' 	=> 'Das Dominion'
+	),
 	'classes' => array(
-		0 => 'Unbekannt',
-		1 => 'Krieger',
-        2 => 'Arkanschütze',
-		3 => 'Meuchler',
-		4 => 'Esper',
-		5 => 'Sanitäter',
-		6 => 'Techpionier',
+		0	=> 'Unbekannt',
+		1	=> 'Krieger',
+        2	=> 'Arkanschütze',
+		3	=> 'Meuchler',
+		4	=> 'Esper',
+		5	=> 'Sanitäter',
+		6	=> 'Techpionier',
 	),
 	
 	'races' => array(
-		'Unknown',
-		'Mensch',
-		'Cassianer',
-		'Granok',
-		'Draken',
-		'Aurin',
-		'Mechari',
-		'Mordesch',
-		'Chua',
+		0	=> 'Unknown',
+		1	=> 'Mensch',
+		2	=> 'Cassianer',
+		3	=> 'Granok',
+		4	=> 'Draken',
+		5	=> 'Aurin',
+		6	=> 'Mechari',
+		7	=> 'Mordesch',
+		8	=> 'Chua',
 	),
 	
 	'roles' => array(
