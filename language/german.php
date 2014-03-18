@@ -33,7 +33,6 @@ $german_array = array(
 		5	=> 'Sanitäter',
 		6	=> 'Techpionier',
 	),
-	
 	'races' => array(
 		0	=> 'Unknown',
 		1	=> 'Mensch',
@@ -45,35 +44,31 @@ $german_array = array(
 		7	=> 'Mordesch',
 		8	=> 'Chua',
 	),
-	
 	'roles' => array(
-		1 => array(2,4,5),	# healer
-		2 => array(1,3,6),	# tank
-		3 => array(1,2,3,4,5,6),	# DD
+		1	=> 'Heiler',
+		2	=> 'Tank',
+		3	=> 'Damage Dealer',
 	),
 
 	'lang' => array(
-		'wildstar'	=> 'Wildstar Online',
-		'heavy' => 'Schwere Rüstung',
-		'medium' => 'Mittlere Rüstung',
-		'light' => 'Leichte Rüstung',
-		'role1' => 'Heiler',
-		'role2' => 'Tank',
-		'role3' => 'Damage Dealer',
+		'wildstar'			=> 'Wildstar Online',
+		'heavy'				=> 'Schwere Rüstung',
+		'medium'			=> 'Mittlere Rüstung',
+		'light'				=> 'Leichte Rüstung',
 
 		// Profile information
-		'uc_path'					=> 'Pfad',
-		'uc_gender'					=> 'Geschlecht',
-		'uc_male'					=> 'Männlich',
-		'uc_female'					=> 'Weiblich',
-		'uc_guild'					=> 'Gilde',
+		'uc_path'			=> 'Pfad',
+		'uc_gender'			=> 'Geschlecht',
+		'uc_male'			=> 'Männlich',
+		'uc_female'			=> 'Weiblich',
+		'uc_guild'			=> 'Gilde',
 		
 		// Pfade
-		'uc_path_0' => '-',
-		'uc_path_1' => 'Kundschafter',
-		'uc_path_2' => 'Wissenschaftler',
-		'uc_path_3' => 'Soldat',
-		'uc_path_4' => 'Siedler',
+		'uc_path_0'			=> '-',
+		'uc_path_1'			=> 'Kundschafter',
+		'uc_path_2'			=> 'Wissenschaftler',
+		'uc_path_3'			=> 'Soldat',
+		'uc_path_4'			=> 'Siedler',
 	),
 );
 
