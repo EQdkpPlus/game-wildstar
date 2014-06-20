@@ -153,11 +153,17 @@ if(!class_exists('wildstar')) {
 
 		public function install($install=false){
 			
+			$this->game->resetEvents();
 
-			//Do this SQL Query NOT if the Eqdkp is installed -> only @ the first install
-			#if($install){
-			#}
-			return $info;
+			$arrEventIDs = array();
+			$arrEventIDs[] = $this->game->addEvent($this->glang('wildstar_event_warplots'), 0, "warplot.png");
+			$arrEventIDs[] = $this->game->addEvent($this->glang('wildstar_event_adventure'), 0, "raid.png");
+
+			$this->game->resetMultiDKPPools();
+			$this->game->resetItempools();
+			$intItempoolID = $this->game->addItempool("Default", "Default Itempool");
+
+			$this->game->addMultiDKPPool("Default", "Default MultiDKPPool", $arrEventIDs, array($intItempoolID));
 		}
 	}
 }

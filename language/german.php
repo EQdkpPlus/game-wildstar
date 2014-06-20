@@ -51,24 +51,28 @@ $german_array = array(
 	),
 
 	'lang' => array(
-		'wildstar'			=> 'Wildstar Online',
-		'heavy'				=> 'Schwere Rüstung',
-		'medium'			=> 'Mittlere Rüstung',
-		'light'				=> 'Leichte Rüstung',
+		'wildstar'					=> 'Wildstar Online',
+		'heavy'						=> 'Schwere Rüstung',
+		'medium'					=> 'Mittlere Rüstung',
+		'light'						=> 'Leichte Rüstung',
 
 		// Profile information
-		'uc_path'			=> 'Pfad',
-		'uc_gender'			=> 'Geschlecht',
-		'uc_male'			=> 'Männlich',
-		'uc_female'			=> 'Weiblich',
-		'uc_guild'			=> 'Gilde',
+		'uc_path'					=> 'Pfad',
+		'uc_gender'					=> 'Geschlecht',
+		'uc_male'					=> 'Männlich',
+		'uc_female'					=> 'Weiblich',
+		'uc_guild'					=> 'Gilde',
 		
 		// Pfade
-		'uc_path_0'			=> '-',
-		'uc_path_1'			=> 'Kundschafter',
-		'uc_path_2'			=> 'Wissenschaftler',
-		'uc_path_3'			=> 'Soldat',
-		'uc_path_4'			=> 'Siedler',
+		'uc_path_0'					=> '-',
+		'uc_path_1'					=> 'Kundschafter',
+		'uc_path_2'					=> 'Wissenschaftler',
+		'uc_path_3'					=> 'Soldat',
+		'uc_path_4'					=> 'Siedler',
+		
+		// events
+		'wildstar_event_warplots'	=> 'Warplots (PVP)',
+		'wildstar_event_adventure'	=> 'Abenteuer (5 Personen)',
 	),
 );
 
