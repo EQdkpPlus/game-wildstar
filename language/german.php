@@ -52,6 +52,7 @@ $german_array = array(
 
 	'lang' => array(
 		'wildstar'					=> 'Wildstar Online',
+		'game_language'				=> 'Spielsprache',
 		'heavy'						=> 'Schwere Rüstung',
 		'medium'					=> 'Mittlere Rüstung',
 		'light'						=> 'Leichte Rüstung',

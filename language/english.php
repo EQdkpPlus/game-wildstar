@@ -52,6 +52,7 @@ $english_array =  array(
 
 	'lang' => array(
 		'wildstar'					=> 'Wildstar Online',
+		'game_language'				=> 'Game language',
 		'heavy'						=> 'Heavy Armour',
 		'medium'					=> 'Medium Armour',
 		'light'						=> 'Light Armour',
