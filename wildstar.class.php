@@ -4,15 +4,14 @@
  * License:		Creative Commons - Attribution-Noncommercial-Share Alike 3.0 Unported
  * Link:		http://creativecommons.org/licenses/by-nc-sa/3.0/
  * -----------------------------------------------------------------------
- * Began:		2011
  * Date:		$Date$
  * -----------------------------------------------------------------------
  * @author		$Author$
- * @copyright	2006-2011 EQdkp-Plus Developer Team
+ * @copyright	2006-2014 EQdkp-Plus Developer Team
  * @link		http://eqdkp-plus.com
  * @package		eqdkp-plus
  * @version		$Rev$
- * 
+ *
  * $Id$
  */
 
@@ -22,15 +21,16 @@ if ( !defined('EQDKP_INC') ){
 
 if(!class_exists('wildstar')) {
 	class wildstar extends game_generic {
-		public $version			= '0.3';
-		protected $this_game	= 'wildstar';
-		protected $types		= array('faction','classes', 'races', 'roles');
-		protected $classes		= array();
-		protected $races		= array();
-		protected $roles		= array();
-		protected $factions		= array();
-		protected $filters		= array();
-		public $langs			= array('english', 'german');
+		protected static $apiLevel	= 20;
+		public $version				= '0.3';
+		protected $this_game		= 'wildstar';
+		protected $types			= array('faction','classes', 'races', 'roles');
+		protected $classes			= array();
+		protected $races			= array();
+		protected $roles			= array();
+		protected $factions			= array();
+		protected $filters			= array();
+		public $langs				= array('english', 'german');
 
 		protected $class_dependencies = array(
 			array(
@@ -76,13 +76,13 @@ if(!class_exists('wildstar')) {
 				),
 			)
 		);
-		
+
 		public $default_roles = array(
 			1 => array(2,4,5),			# healer
 			2 => array(1,3,6),			# tank
 			3 => array(1,2,3,4,5,6),	# DD
 		);
-		
+
 		protected $class_colors = array(
 			1	=> '#CC0000',
 			2	=> '#0066FF',
@@ -91,18 +91,12 @@ if(!class_exists('wildstar')) {
 			5	=> '#FFCC00',
 			6	=> '#66CC00',
 		);
-		
+
 		protected $glang		= array();
 		protected $lang_file	= array();
 		protected $path			= '';
 		public $lang			= false;
-		
-		
-		/**
-		* Initialises filters
-		*
-		* @param array $langs
-		*/
+
 		protected function load_filters($langs){
 			if(empty($this->classes)) {
 				$this->load_type('classes', $langs);
@@ -152,7 +146,6 @@ if(!class_exists('wildstar')) {
 		}
 
 		public function install($install=false){
-			
 			$this->game->resetEvents();
 
 			$arrEventIDs = array();
