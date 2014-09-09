@@ -21,8 +21,8 @@ if ( !defined('EQDKP_INC') ){
 }
 $english_array =  array(
 	'factions' => array(
-		'exile' 	=> 'Exile',
-		'dominion' 	=> 'Dominion'
+		'exile'		=> 'Exile',
+		'dominion'	=> 'Dominion'
 	),
 	'classes' => array(
 		0	=> 'Unknown',
@@ -63,6 +63,13 @@ $english_array =  array(
 		'uc_male'					=> 'Male',
 		'uc_female'					=> 'Female',
 		'uc_guild'					=> 'Guild',
+		'uc_race'					=> 'Race',
+		'uc_class'					=> 'Class',
+
+		// Admin Settings
+		'core_sett_fs_gamesettings'	=> 'Wildstar Online Settings',
+		'uc_faction'				=> 'Faction',
+		'uc_faction_help'			=> 'Select the default faction',
 		
 		// Pfade
 		'uc_path_0'					=> '-',

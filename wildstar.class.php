@@ -24,7 +24,7 @@ if(!class_exists('wildstar')) {
 		protected static $apiLevel	= 20;
 		public $version				= '0.3';
 		protected $this_game		= 'wildstar';
-		protected $types			= array('faction','classes', 'races', 'roles');
+		protected $types			= array('factions','classes', 'races', 'roles');
 		protected $classes			= array();
 		protected $races			= array();
 		protected $roles			= array();

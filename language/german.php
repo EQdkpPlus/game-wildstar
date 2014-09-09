@@ -27,7 +27,7 @@ $german_array = array(
 	'classes' => array(
 		0	=> 'Unbekannt',
 		1	=> 'Krieger',
-        2	=> 'Arkanschütze',
+		2	=> 'Arkanschütze',
 		3	=> 'Meuchler',
 		4	=> 'Esper',
 		5	=> 'Sanitäter',
@@ -63,6 +63,13 @@ $german_array = array(
 		'uc_male'					=> 'Männlich',
 		'uc_female'					=> 'Weiblich',
 		'uc_guild'					=> 'Gilde',
+		'uc_race'					=> 'Rasse',
+		'uc_class'					=> 'Klasse',
+
+		// Admin Settings
+		'core_sett_fs_gamesettings'	=> 'Wildstar Online Einstellungen',
+		'uc_faction'				=> 'Fraktion',
+		'uc_faction_help'			=> 'Wähle die Standard-Fraktion',
 		
 		// Pfade
 		'uc_path_0'					=> '-',
