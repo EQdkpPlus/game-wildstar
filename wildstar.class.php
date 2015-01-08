@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('wildstar')) {
 	class wildstar extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '0.4.2';
+		public $version				= '1.0.0';
 		protected $this_game		= 'wildstar';
 		protected $types			= array('factions','classes', 'races', 'roles');
 		protected $classes			= array();
