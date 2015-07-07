@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('wildstar')) {
 	class wildstar extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '1.0.0';
+		public $version				= '1.0.1';
 		protected $this_game		= 'wildstar';
 		protected $types			= array('factions','classes', 'races', 'roles');
 		protected $classes			= array();
@@ -162,6 +162,50 @@ if(!class_exists('wildstar')) {
 
 			$this->game->addMultiDKPPool("Default", "Default MultiDKPPool", $arrEventIDs, array($intItempoolID));
 		}
+		//Guildbank
+		public function guildbank_money(){
+		return 	$money_data = array(
+		'diamond'		=> array(
+			'icon'			=> array(
+				'type'		=> 'default',
+				'name'		=> 'platin'
+			),
+			'factor'		=> 1000000,
+			'size'			=> 'unlimited',
+			'language'		=> $this->user->lang(array('gb_currency', 'platin')),
+			'short_lang'	=> $this->user->lang(array('gb_currency', 'platin_s')),
+		),
+		'gold'		=> array(
+			'icon'			=> array(
+				'type'		=> 'default',
+				'name'		=> 'gold'
+			),
+			'factor'		=> 10000,
+			'size'			=> 2,
+			'language'		=> $this->user->lang(array('gb_currency', 'gold')),
+			'short_lang'	=> $this->user->lang(array('gb_currency', 'gold_s')),
+		),
+		'silver'	=> array(
+			'icon'			=> array(
+				'type'		=> 'default',
+				'name'		=> 'silver'
+			),
+			'factor'		=> 100,
+			'size'			=> 2,
+			'language'		=> $this->user->lang(array('gb_currency', 'silver')),
+			'short_lang'	=> $this->user->lang(array('gb_currency', 'silver_s')),
+		),
+		'copper'	=> array(
+			'icon'			=> array(
+				'type'		=> 'default',
+				'name'		=> 'bronze'
+			),
+			'factor'		=> 1,
+			'size'			=> 2,
+			'language'		=> $this->user->lang(array('gb_currency', 'copper')),
+			'short_lang'	=> $this->user->lang(array('gb_currency', 'copper_s')),
+		)
+	);}
 	}
 }
 ?>
