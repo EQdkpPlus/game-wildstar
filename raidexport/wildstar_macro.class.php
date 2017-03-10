@@ -81,7 +81,7 @@ if(!function_exists('WildstarMacroexport')){
 		}
 			');
 
-		$text  = registry::fetch('game')->glang('game_language').': '.new hdropdown('language', array('options' => array('german'=>'Deutsch', 'english' => 'English'), 'value' => registry::fetch('config')->get('game_language'), 'id' => 'gamelanguage'));
+		$text  = registry::fetch('game')->glang('game_language').': '.(new hdropdown('language', array('options' => array('german'=>'Deutsch', 'english' => 'English'), 'value' => registry::fetch('config')->get('game_language'), 'id' => 'gamelanguage')))->output();
 		$text .= "<input type='checkbox' checked='checked' name='confirmed' id='cb_confirmed' value='true'> ".registry::fetch('user')->lang(array('raidevent_raid_status', 0));
 		$text .= "<input type='checkbox' checked='checked' name='guests' id='cb_guests' value='true'> ".registry::fetch('user')->lang('raidevent_raid_guests');
 		$text .= "<input type='checkbox' checked='checked' name='signedin' id='cb_signedin' value='true'> ".registry::fetch('user')->lang(array('raidevent_raid_status', 1));
